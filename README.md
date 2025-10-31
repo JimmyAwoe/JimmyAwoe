@@ -68,8 +68,8 @@ These are my key contributions to the field of efficient LLM training.
 
 ### An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data
 * **Core Problem:** Addressed the dual challenge in Federated Learning (FL): severe communication bottlenecks and detrimental client drift caused by Non-IID data.
-* **Innovation:** Developed **SubScaf**, an efficient subspace federated optimization algorithm that fundamentally enhances communication efficiency and convergence stability.
-* **Technical Breakthroughs:** Utilized low-dimensional projection for model update compression ($O(md) \to O(rd)$) and introduced a **dual variable correction mechanism** to mitigate client drift.
+* **Innovation:** Developed **FedSub**, an efficient subspace federated optimization algorithm that fundamentally enhances communication efficiency and convergence stability.
+* **Technical Breakthroughs:** Utilized low-dimensional projection for model update compression (O(md) \to O(rd)) and introduced a **dual variable correction mechanism** to mitigate client drift.
 * **Validation:** Achieved comparable convergence accuracy to full-dimension methods at a **50% compression rate**, demonstrating superior convergence speed over established baselines.
 
 ---
