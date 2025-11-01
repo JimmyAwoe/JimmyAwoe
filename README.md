@@ -32,7 +32,7 @@ Here are some ideas to get you started:
  Enthusiast in Large Models & AI
   </p>  
   
-  [![GitHub Followers](https://img.shields.io/github/followers/JimmyAwoe?style=social)](https://github.com/JimmyAwoe?tab=followers)
+  [![GitHub total stars](https://img.shields.io/github/stars/JimmyAwoe?style=social)](https://github.com/JimmyAwoe)
   [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:xuyq@stu.pku.edu.cn)
 
   ---
