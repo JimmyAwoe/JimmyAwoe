@@ -29,7 +29,7 @@ Here are some ideas to get you started:
   
   <h1>👋 Hello there! I'm JimmyAwoe </h1>
   <p>
- Enthusiast in Large Models & AI
+ Enthusiast in AI
   </p>  
   
   [![GitHub total stars](https://img.shields.io/github/stars/JimmyAwoe?style=social)](https://github.com/JimmyAwoe)
