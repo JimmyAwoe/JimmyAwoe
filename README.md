@@ -32,10 +32,8 @@ Here are some ideas to get you started:
  Enthusiast in Large Models & AI
   </p>  
   
-  [![GitHub Followers](https://img.shields.io/github/followers/{{Your-GitHub-Username}}?style=social)](https://github.com/{{Your-GitHub-Username}}?tab=followers)
-  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/{{Your-LinkedIn-ID}}/)
-  [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/{{Your-Twitter-ID-Optional}}/)
-  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:{{Your-Email-Address}})
+  [![GitHub Followers](https://img.shields.io/github/followers/JimmyAwoe?style=social)](https://github.com/JimmyAwoe?tab=followers)
+  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:xuyq@stu.pku.edu.cn)
 
   ---
 </div>
