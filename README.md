@@ -51,26 +51,28 @@ I am a second-year Master's student at Peking University.
 
 | Area | Technologies / Skills |
 | :--- | :--- |
-| **Deep Learning** | PyTorch, Transformers, Megatron-LM, Docker |
+| **Deep Learning** | Efficient Pre-training and Fine-tuning of Large Language Models |
 | **Programming** | Python |
+| **Frameworks** | Megatron-LM, transformers |
 
 ---
 
 ## 🔬 Featured Research Projects
 
 These are my key contributions to the field of efficient LLM training.
-
+<!--
 ### GROUTER: Preemptive Routing for Stable and Efficient Mixture-of-Experts Training
 * **Core Problem:** Systematically identified and provided a theoretical analysis of **Structure-Performance Interference (SPI)**—the inherent instability and optimization error accumulation caused by dynamic routing decisions in MoE training.
 * **Innovation:** Proposed **GROUTER**, the first preemptive routing framework designed to *eliminate* SPI. We employ **Knowledge Distillation (KD)** to extract a high-quality, stable routing prior from a well-converged source model, injecting it as a fixed, near-optimal router into the target model.
 * **Methodology:** Engineered two novel, complementary strategies for structural migration: **Expert Folding** and **Expert Tuning**.
 * **Impact & Results:** Accelerated pre-training data utilization by **4.28x** and achieved up to **33.5% training throughput acceleration**.
-
+-->
 ### An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data
-* **Core Problem:** Addressed the dual challenge in Federated Learning (FL): severe communication bottlenecks and detrimental client drift caused by Non-IID data.
+* **Core Problem:** Addressed the dual challenge in Federated Learning: severe communication bottlenecks and detrimental client drift caused by Non-IID data.
 * **Innovation:** Developed **FedSub**, an efficient subspace federated optimization algorithm that fundamentally enhances communication efficiency and convergence stability.
-* **Technical Breakthroughs:** Utilized low-dimensional projection for model update compression (O(md) \to O(rd)) and introduced a **dual variable correction mechanism** to mitigate client drift.
+* **Technical Breakthroughs:** Utilized low-dimensional projection for model update compression (O(md) $\to$ O(rd)) and introduced a **dual variable correction mechanism** to mitigate client drift.
 * **Validation:** Achieved comparable convergence accuracy to full-dimension methods at a **50% compression rate**, demonstrating superior convergence speed over established baselines.
+* **Implementation** The algorithm has been adapted within my FedSub repository. This repository not only details how to reproduce the main experiments but also includes a packaged implementation of the algorithm. You can refer to the Readme.md to learn how to apply the FedSub algorithm to your own training tasks.
 
 ---
 
