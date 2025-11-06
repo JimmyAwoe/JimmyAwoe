@@ -72,5 +72,15 @@ These are my key contributions to the field of efficient LLM training.
 * **Validation:** Achieved comparable convergence accuracy to full-dimension methods at a **50% compression rate**, demonstrating superior convergence speed over established baselines.
 * **Implementation** The algorithm has been adapted within my FedSub repository. This repository not only details how to reproduce the main experiments but also includes a packaged implementation of the algorithm. You can refer to the Readme.md to learn how to apply the FedSub algorithm to your own training tasks.
 
+### PackTron: Efficient Sentence Packing for Large Language Model Training
+
+* **Core Problem:** Addressed the dual challenge in LLM data loading: severe padding waste (up to 30-50% of tokens) in `datasets.load_dataset` and the complexity barrier of Megatron-LM's excellent but heavyweight data processing framework.
+* **Innovation:** Developed **PackTron**, a lightweight, plug-and-play data loader that extracts Megatron-LM's proven sentence packing architecture into a simple, easy-to-use Python package.
+* **Technical Breakthroughs:** Implemented intelligent sentence packing that eliminates padding entirely (100% token utilization), binary storage format with memory-mapped I/O for fast random access, and C++-accelerated indexing for efficient sample construction. Automatic multi-GPU data distribution and epoch management ensure seamless distributed training.
+* **Validation:** Achieved **zero padding waste** with 100% token utilization, enabling accurate token counting and maximum training efficiency. The library provides a drop-in replacement for `datasets.load_dataset` while maintaining Megatron-LM's production-grade performance.
+* **Implementation:** The library has been packaged as a standard Python package. This repository includes complete documentation, examples, and a simple API that makes Megatron-LM's efficient data processing accessible to the broader ML community. You can refer to the README.md to learn how to integrate PackTron into your training pipeline.
+
+
+
 ---
 
