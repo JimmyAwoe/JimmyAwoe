@@ -72,7 +72,7 @@ These are my key contributions to the field of efficient LLM training.
 * **Validation:** Achieved comparable convergence accuracy to full-dimension methods at a **50% compression rate**, demonstrating superior convergence speed over established baselines.
 * **Implementation** The algorithm has been adapted within my FedSub repository. This repository not only details how to reproduce the main experiments but also includes a packaged implementation of the algorithm. You can refer to the Readme.md to learn how to apply the FedSub algorithm to your own training tasks.
 
-### PackTron: Efficient Sentence Packing for Large Language Model Training
+### PackTron: Efficient Data Loader for Large Language Model Training
 
 * **Core Problem:** Addressed the dual challenge in LLM data loading: severe padding waste (up to 30-50% of tokens) in `datasets.load_dataset` and the complexity barrier of Megatron-LM's excellent but heavyweight data processing framework.
 * **Innovation:** Developed **PackTron**, a lightweight, plug-and-play data loader that extracts Megatron-LM's proven sentence packing architecture into a simple, easy-to-use Python package.
