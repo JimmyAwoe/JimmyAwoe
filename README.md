@@ -42,7 +42,7 @@ Here are some ideas to get you started:
 
 I am a second-year Master's student at Peking University.
 
-* 🔭 &nbsp; **Currently Researching:** Efficient and Effective LLM Pretraining & Fine-Tuning Method.
+* 🔭 &nbsp; **Currently Researching:** Efficient LLM Training & MLLM Reasoning
 
 
 ## 🛠️ Tech Stack & Expertise
@@ -58,13 +58,14 @@ I am a second-year Master's student at Peking University.
 ## 🔬 Featured Research Projects
 
 These are my key contributions to the field of efficient LLM training.
-<!--
+
 ### GROUTER: Preemptive Routing for Stable and Efficient Mixture-of-Experts Training
-* **Core Problem:** Systematically identified and provided a theoretical analysis of **Structure-Performance Interference (SPI)**—the inherent instability and optimization error accumulation caused by dynamic routing decisions in MoE training.
-* **Innovation:** Proposed **GROUTER**, the first preemptive routing framework designed to *eliminate* SPI. We employ **Knowledge Distillation (KD)** to extract a high-quality, stable routing prior from a well-converged source model, injecting it as a fixed, near-optimal router into the target model.
-* **Methodology:** Engineered two novel, complementary strategies for structural migration: **Expert Folding** and **Expert Tuning**.
-* **Impact & Results:** Accelerated pre-training data utilization by **4.28x** and achieved up to **33.5% training throughput acceleration**.
--->
+* **Core Problem:** Addressed the core bottleneck of MoE training: the entanglement of routing structure learning and representation optimization, which leads to slow convergence, training instability and high runtime overhead.
+* **Innovation:** Developed Grouter, a preemptive routing framework that distills stable routing priors from fully trained MoE models, decoupling routing from representation to fundamentally accelerate MoE pre-training.
+* **Technical Breakthroughs:** Lightweight distillation architecture, Expert Folding & Tuning for cross-configuration transfer, and offline pre-routing optimization to eliminate dynamic routing overhead.
+* **Validation:** Delivered 4.28× pre-training data efficiency improvement and up to 33.5% training throughput acceleration, with consistent superiority over SOTA baselines across diverse MoE setups.
+* **Implementation:** Full open-source implementation with pre-trained weights, Megatron-LM integration, and one-click reproduction scripts are provided in this repository.
+
 ### An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data
 * **Core Problem:** Addressed the dual challenge in Federated Learning: severe communication bottlenecks and detrimental client drift caused by Non-IID data.
 * **Innovation:** Developed **FedSub**, an efficient subspace federated optimization algorithm that fundamentally enhances communication efficiency and convergence stability.
