@@ -66,13 +66,6 @@ These are my key contributions to the field of efficient LLM training.
 * **Validation:** Delivered 4.28× pre-training data efficiency improvement and up to 33.5% training throughput acceleration, with consistent superiority over SOTA baselines across diverse MoE setups.
 * **Implementation:** Full open-source implementation with pre-trained weights, Megatron-LM integration, and one-click reproduction scripts are provided in this repository.
 
-### An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data
-* **Core Problem:** Addressed the dual challenge in Federated Learning: severe communication bottlenecks and detrimental client drift caused by Non-IID data.
-* **Innovation:** Developed **FedSub**, an efficient subspace federated optimization algorithm that fundamentally enhances communication efficiency and convergence stability.
-* **Technical Breakthroughs:** Utilized low-dimensional projection for model update compression (O(md) $\to$ O(rd)) and introduced a **dual variable correction mechanism** to mitigate client drift.
-* **Validation:** Achieved comparable convergence accuracy to full-dimension methods at a **50% compression rate**, demonstrating superior convergence speed over established baselines.
-* **Implementation** The algorithm has been adapted within my FedSub repository. This repository not only details how to reproduce the main experiments but also includes a packaged implementation of the algorithm. You can refer to the Readme.md to learn how to apply the FedSub algorithm to your own training tasks.
-
 ### PackTron: Efficient Data Loader for Large Language Model Training
 
 * **Core Problem:** Addressed the dual challenge in LLM data loading: severe padding waste (up to 30-50% of tokens) in `datasets.load_dataset` and the complexity barrier of Megatron-LM's excellent but heavyweight data processing framework.
